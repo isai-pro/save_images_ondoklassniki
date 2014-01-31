@@ -52,7 +52,7 @@ for i in 1..@total_number_of_photos_in_album do
 #### and UNcomment four lines[53..56] below :
 # @b.i(:class, "ic ic_i ic_i_remove").click
 # @b.input(:id, "hook_FormButton_button_delete").when_present.click
-# @b.goto @albumURL  # need only if your connection is slowest  !
+# @b.goto @albumURL  # need only if your connection is slowest, otherwise do NOT uncomment  !
 # @b.refresh
 ####
 ####
